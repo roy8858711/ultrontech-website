@@ -65,47 +65,15 @@ const Contact: React.FC = () => {
                         </div>
                     </div>
 
-                    {/* Form */}
-                    <div className="bg-slate-50 p-8 rounded-xl border border-slate-200 shadow-sm">
-                        <h2 className="text-2xl font-bold text-slate-900 mb-6">留言諮詢</h2>
-                        <form className="space-y-6">
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                                <div>
-                                    <label className="block text-sm font-medium text-slate-700 mb-1">您的姓名 *</label>
-                                    <input type="text" className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none" placeholder="王小明" />
-                                </div>
-                                <div>
-                                    <label className="block text-sm font-medium text-slate-700 mb-1">聯絡電話</label>
-                                    <input type="tel" className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none" placeholder="0912-345-678" />
-                                </div>
-                            </div>
+                    <a
+                        href="https://www.104.com.tw/company/1a2x6bnd81?jobsource=google"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 rounded-lg flex items-center justify-center gap-2 transition-colors"
+                    >
+                        <Send size={18} /> 加入我們｜查看人才招募資訊
+                    </a>
 
-                            <div>
-                                <label className="block text-sm font-medium text-slate-700 mb-1">電子郵件 *</label>
-                                <input type="email" className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none" placeholder="example@company.com" />
-                            </div>
-
-                            <div>
-                                <label className="block text-sm font-medium text-slate-700 mb-1">諮詢項目</label>
-                                <select className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none bg-white">
-                                    <option>請選擇...</option>
-                                    <option>IoT 監測站建置規劃</option>
-                                    <option>AI 深度學習方案研擬</option>
-                                    <option>水庫減砂/集水區評估</option>
-                                    <option>其他合作提案</option>
-                                </select>
-                            </div>
-
-                            <div>
-                                <label className="block text-sm font-medium text-slate-700 mb-1">內容說明</label>
-                                <textarea rows={4} className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none" placeholder="請簡述您的需求..."></textarea>
-                            </div>
-
-                            <button type="button" className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 rounded-lg flex items-center justify-center gap-2 transition-colors">
-                                <Send size={18} /> 送出訊息
-                            </button>
-                        </form>
-                    </div>
 
                 </div>
             </div>
