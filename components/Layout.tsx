@@ -28,7 +28,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             {/* Logo */}
             <div className="flex-shrink-0 flex items-center gap-2">
               <img
-                src="images/Ultronlogo_V2.png"
+                src="/images/Ultronlogo_V2.png"
                 alt="UltronTech Logo"
                 className="h-8 w-auto object-contain"
               />

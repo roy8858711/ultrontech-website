@@ -60,7 +60,7 @@ const Technology: React.FC = () => {
             {/* 圖片卡片 */}
             <div className="rounded-lg overflow-hidden border border-slate-700">
               <img
-                src="images/hydro-station-demo.png"
+                src="/images/hydro-station-demo.png"
                 alt="水砂觀測站示意圖"
                 className="w-full h-72 object-cover"
               />
